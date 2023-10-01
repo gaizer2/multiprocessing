@@ -23,8 +23,8 @@ def passw(s):
 def worker_function2(process_num):
     # Функция подсчета повторяющихся предложений
     start = time.time()
-    document1 = docx.Document('C://Users/Gaizer/Desktop/1.docx')
-    document2 = docx.Document('C://Users/Gaizer/Desktop/2.docx')
+    document1 = docx.Document('1.docx')
+    document2 = docx.Document('2.docx')
     array1 = []
     array2 = []
     g = 0
@@ -52,8 +52,8 @@ def worker_function2(process_num):
 def worker_function3(process_num):
     #Функция подсчета повторяющихся слов
     start = time.time()
-    document1 = docx.Document('C://Users/Gaizer/Desktop/1.docx')
-    document2 = docx.Document('C://Users/Gaizer/Desktop/2.docx')
+    document1 = docx.Document('1.docx')
+    document2 = docx.Document('2.docx')
     array1 = []
     array2 = []
     slova1 = []
